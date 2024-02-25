@@ -1,0 +1,8 @@
+.container {
+    .mask {
+        background: linear-gradient(270deg, #030303 0%, rgba(3, 3, 3, 0.80) 55.46%, rgba(3, 3, 3, 0.00) 92.9%);
+        &.mask-left {
+            background: linear-gradient(90deg, #030303 0%, rgba(3, 3, 3, 0.80) 55.46%, rgba(3, 3, 3, 0.00) 100%);
+        }
+    }
+}

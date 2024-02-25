@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'NEXT Book';
+	src: url('../assets/font/NEXT/NEXT-Book-Regular.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NEXT Book';
+	src: url('../assets/font/NEXT/NEXT-Book-Italic.otf') format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NEXT Book';
+	src: url('../assets/font/NEXT/NEXT-Book-Bold.otf') format("opentype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'neuemachina';
+	src: url('../assets/font/neuemachina-regular.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	color: #F2F2F2;
+	background: #030303;
+	font-family: 'NEXT Book';
+	padding-top: 150px;
+	line-height: 1rem;
+}
+
+@media (max-width: 1600px) {
+	html {
+		font-size: 14px;
+	}
+}
